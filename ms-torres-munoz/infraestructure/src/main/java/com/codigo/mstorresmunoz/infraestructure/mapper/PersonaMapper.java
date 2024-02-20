@@ -3,9 +3,10 @@ package com.codigo.mstorresmunoz.infraestructure.mapper;
 import com.codigo.mstorresmunoz.domain.aggregates.dto.PersonaDTO;
 import com.codigo.mstorresmunoz.infraestructure.entity.PersonaEntity;
 import org.modelmapper.ModelMapper;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+
+@Component
 public class PersonaMapper {
     private static final ModelMapper modelMapper = new ModelMapper();
 
